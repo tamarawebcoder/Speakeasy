@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* css Document */
+
+
+/***basic style***/
+
+#header {height: 600px;
+}
+ #about, #samples {
+	height: 600px;
+} 
+#contact {height: 1000px;}
+
+#social {height: 200px;}
+
+/****grid****/
+
+.full-width {width: 1200px;
+}
+
+
+.half-width {
+	width: 600px;
+	
+}
+
+
+/****header****/
+
+#links {margin-top: 0px;
+	padding-top: 0px;
+}
+#links ul li a:hover{
+	background-color:#006969 ;
+}
+
+ul li {display:inline;
+text-transform: capitalize;
+	text-decoration: none;
+		font-size: 25px;
+	color:darkcyan;
+	float:right;
+	padding-right: 20px;
+	list-style: none;
+	margin-top: 50px;
+}
+
+
+
+	#header {background-color:#d7f6f6;
+		padding-top: 200px;
+		height: 600px;
+	
+}
+
+
+
+#header h1{
+	font-size: 60px;
+	font-family: Diplomata;
+	width: 600px;
+	text-align: center;
+	color:#006b7a;	
+		padding-left:  25px;
+	margin-left: -70px;
+	margin-bottom: 		150px;
+	padding-top: 15%;
+
+	}
+
+
+
+#oval {
+                width: 579px;
+                height: 371px;
+                background: #fffccb;
+               border-radius: 50%;
+	
+}
+#oval {
+		padding-left:  50px;
+	margin-left: 150px;
+	object-position: center;
+
+	
+}
+	
+
+#building-img {
+	
+margin-top: -300px ;
+	padding-left: 50px;
+	margin-left: 600px;
+	 opacity: 	.4;
+}
+	
+#slogan {font-size: 37px;
+	font-family: poiret one;
+	color:#005a64;
+		text-align: center;
+margin-left: 40px;
+margin-top:   -225px;
+	
+	}
+	
+
+
+/****about****/
+
+
+	#me-img {float: right;
+	margin-left: 700px;
+		padding-right: 100px;
+		margin-top: -450px;
+		text-align: center;
+}
+	
+
+#about p{
+	font-size: 30px;
+	color: #00788e;
+	font-family: Montserrat;
+	text-align: center;
+		margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 100px;
+	padding-right: 50px;
+
+	
+	}
+
+/****samples****/
+
+
+#sample{
+	background-color: #d7f6f6;
+	height: 600px;
+}
+	#youth{
+		margin-left: 50px;
+		padding-top: 10%;
+		
+	}
+
+
+#card{float:right;
+	margin-right: 50px;
+	padding-right: 50px;
+	
+	margin-top: -275px;
+		
+}
+
+
+#sample-link h2{
+	color: #006969;
+	font-size: 35px;
+	text-align:center;
+	
+}
+#sample-link a:hover{
+	background-color:#006969 ;
+}
+/****contact****/
+
+
+
+	#contact_form label{font-size: 48px;	
+
+color:#006969;}
+	
+
+/*****social****/
+
+
+#social {text-align: right;
+}
+
+#social {background-color: #d7f6f6;
+}
+
+#social ul{list-style: none;
+}
+
+#social ul li{display: inline-block;
+}
